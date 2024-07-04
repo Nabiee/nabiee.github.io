@@ -454,14 +454,6 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-
-  .mobile {
-    display: flex;
-  }
-
-  .not-mobile {
-    display: none;
-  }
 }
 
 @media (max-height: 500px) {
@@ -2022,4 +2014,18 @@ section {
 .bi-twitter-x {
   font-size: 13.5px;
   transform: translate(0.5px, -3px);
+}
+
+.mobile {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: flex !important;
+  }
+
+  .not-mobile {
+    display: none !important;
+  }
 }
