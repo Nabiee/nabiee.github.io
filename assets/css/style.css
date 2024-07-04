@@ -454,6 +454,14 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  .mobile {
+    display: flex;
+  }
+
+  .not-mobile {
+    display: none;
+  }
 }
 
 @media (max-height: 500px) {
