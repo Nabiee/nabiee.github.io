@@ -1,10 +1,4 @@
 /**
-* Template Name: Tempo
-* Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -447,12 +441,14 @@ h6 {
   #intro h1 {
     font-size: 28px;
     line-height: 36px;
+    word-break: keep-all;
   }
 
   #intro h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    word-break: keep-all;
   }
 }
 
@@ -511,6 +507,7 @@ section {
 @media (min-width: 1024px) {
   .section-title p {
     width: 55%;
+    word-break: keep-all;
   }
 }
 
@@ -904,7 +901,6 @@ section {
 }
 
 .pricing .box h3 {
-  font-weight: 400;
   padding: 15px;
   margin-top: 15px;
   font-size: 20px;
@@ -970,7 +966,6 @@ section {
   font-size: 14px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
-  font-weight: 600;
   transition: 0.3s;
 }
 
@@ -2028,4 +2023,8 @@ section {
   .not-mobile {
     display: none !important;
   }
+}
+
+p {
+  word-break: keep-all;
 }
